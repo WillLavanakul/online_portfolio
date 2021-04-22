@@ -18,7 +18,14 @@ function name_animation() {
     y: -40,
     ease: Power3.easeInOut
   })
+  gsap.to('.major', {
+    duration: 1,
+    opacity: 1,
+    y: -40,
+    ease: Power3.easeInOut
+  })
 }
+
 
 setTimeout(preamble_animation, 1000);
 setTimeout(name_animation, 3000);

@@ -9,28 +9,50 @@
   margin-bottom: 25px;
 }
 
+#name_span {
+  margin: 20% 0% 0% 70%;
+  padding: 0;
+}
+
+#nav_span {
+  margin: 10% 0% 0% 25%;
+  padding: 0;
+}
+
+.major {
+  padding: 0;
+  margin-top: 0;
+  color: black;
+  font-size: 30px;
+  font-family: Impact, fantasy;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+}
+
 .name {
-  display: inline;
   color: black;
   font-size: 140px;
   font-family: Impact, fantasy;
   opacity: 0;
-  margin-left: 80%;
-  margin-top: 20%;
+  padding: 0;
+  margin: 0;
 }
 
 .nav {
   display: inline;
   list-style-type: none;
   color: black;
-  font-size: 30px;
+  font-size: 60px;
   font-family: Impact, fantasy;
   opacity: 1;
-  margin-top: 30%;
+  padding: 0;
+  margin: 0;
 }
 
 .nav_elem {
-  margin: 20px;
+  margin: 25% 0 25% 0;
+  padding: 0;
 }
 
 
@@ -39,5 +61,4 @@ html {
 }
 body {
   height: 100%;
-  overflow-x: hidden;
 }
